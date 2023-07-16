@@ -1,0 +1,66 @@
+<div id="conteudo-celular">
+    
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Parallax Scrolling Website | Codehal</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    
+    <body>
+    
+        <header>
+            <h2 class="logo">IA</h2>
+            <nav class="navigation">
+                <a href="#" class="active">Inicio</a>
+                <a href="#">Sobre</a>
+                <a href="#">Serviços</a>
+                <a href="#">Contato</a>
+            </nav>
+        </header>
+    
+        <section class="parallax">
+            <img src="img/hill1.png" id="hill1">
+            <img src="img/hill2.png" id="hill2">
+            <img src="img/hill3.png" id="hill3">
+            <img src="img/hill4.png" id="hill4">
+            <img src="img/hill5.png" id="hill5">
+            <img src="img/tree.png" id="tree">
+            <h2 id="text">Furute IA</h2>
+            <img src="img/leaf.png" id="leaf">
+            <img src="img/plant.png" id="plant">
+        </section>
+    
+        <section class="sec">
+            <h2>Parallax Scrolling Website</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos laboriosam rem debitis ad, aliquid, aliquam fugiat, ducimus dignissimos doloribus praesentium earum nesciunt. Qui tenetur commodi, quas cumque quod possimus accusamus ea, harum repudiandae praesentium voluptatum dolores facere consectetur. Minima optio repellat distinctio facere sunt quasi, incidunt eaque, esse at officiis, ut quos assumenda numquam delectus! Eaque obcaecati, quis consequatur nemo doloremque magnam labore illo laudantium, sint officia minima molestias illum. Rerum dicta ut neque placeat velit eos assumenda enim praesentium, ducimus veniam fugit, soluta, ab blanditiis. Natus qui pariatur nobis, minima tempora amet consequatur, aspernatur quod illo facere itaque, dolorum dignissimos fuga voluptatibus nam quos quaerat ullam iure sunt. Enim beatae, odio nisi corporis officiis, saepe dolore perspiciatis unde voluptatum, accusantium ratione error sequi fugit aut atque maiores quos odit! <br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos laboriosam rem debitis ad, aliquid, aliquam fugiat, ducimus dignissimos doloribus praesentium earum nesciunt. Qui tenetur commodi, quas cumque quod possimus accusamus ea, harum repudiandae praesentium voluptatum dolores facere consectetur. Minima optio repellat distinctio facere sunt quasi, incidunt eaque, esse at officiis, ut quos assumenda numquam delectus! Eaque obcaecati, quis consequatur nemo doloremque magnam labore illo laudantium, sint officia minima molestias illum. Rerum dicta ut neque placeat velit eos assumenda enim praesentium, ducimus veniam fugit, soluta, ab blanditiis. Natus qui pariatur nobis, minima tempora amet consequatur, aspernatur quod illo facere itaque, dolorum dignissimos fuga voluptatibus nam quos quaerat ullam iure sunt. Enim beatae, odio nisi corporis officiis, saepe dolore perspiciatis unde voluptatum, accusantium ratione error sequi fugit aut atque maiores quos odit! <br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos laboriosam rem debitis ad, aliquid, aliquam fugiat, ducimus dignissimos doloribus praesentium earum nesciunt. Qui tenetur commodi, quas cumque quod possimus accusamus ea, harum repudiandae praesentium voluptatum dolores facere consectetur. Minima optio repellat distinctio facere sunt quasi, incidunt eaque, esse at officiis, ut quos assumenda numquam delectus! Eaque obcaecati, quis consequatur nemo doloremque magnam labore illo laudantium, sint officia minima molestias illum. Rerum dicta ut neque placeat velit eos assumenda enim praesentium, ducimus veniam fugit, soluta, ab blanditiis. Natus qui pariatur nobis, minima tempora amet consequatur, aspernatur quod illo facere itaque, dolorum dignissimos fuga voluptatibus nam quos quaerat ullam iure sunt. Enim beatae, odio nisi corporis officiis, saepe dolore perspiciatis unde voluptatum, accusantium ratione error sequi fugit aut atque maiores quos odit! <br><br>
+            </p>
+        </section>
+        
+    
+        <script src="./js/script.js"></script>
+    </body>
+    
+    </html>
+ 
+</div>
+<div id="conteudo-desktop">Conteúdo para Desktop</div>
+
+<script>
+  // Obtém a largura da janela
+  var larguraJanela = window.innerWidth || document.documentElement.clientWidth;
+
+  // Verifica o tamanho da tela e manipula o DOM
+  if (larguraJanela <= 767) {
+    document.getElementById("conteudo-desktop").style.display = "none";
+  } else {
+    document.getElementById("conteudo-celular").style.display = "none";
+  }
+</script>
